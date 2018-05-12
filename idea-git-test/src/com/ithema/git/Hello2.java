@@ -12,4 +12,9 @@ public class Hello2 {
         List<String> list = Stream.of("1", "a", "b", "c", "5").collect(Collectors.toList());
         list.forEach(e-> System.out.println(e));
     }
+    @Test
+    public void test2() {
+        List<String> list = Stream.of("1", "a", "b", "c", "5").collect(Collectors.toList());
+        list.forEach(e-> System.out.println(e));
+    }
 }
